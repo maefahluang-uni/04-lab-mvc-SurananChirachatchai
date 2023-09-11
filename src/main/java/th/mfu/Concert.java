@@ -20,21 +20,45 @@ public class Concert {
         this.description = description;
     }
  
+    //TODO: add getters and setters
+    public int getId() {
+        return id;
+    }
     public String getTitle() {
         //TODO: return title
         return title;
+    }
+    public String getPerformer() {
+        return performer;
+    }
+    public String getDate() {
+        return location;
+    }
+    public String getLocation() {
+        //TODO: return description
+        return description;
     }
     public String getDescription() {
         //TODO: return description
         return description;
     }
-
-    //TODO: add getters and setters
-    public int getId() {
-        return id;
-    }
+    
     public void setId(int id) {
         this.id = id;
     }
-
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setPerformer(String performer) {
+        this.performer = performer;
+    }
+    public void setDate(Date date) { // change to specific date
+        this.date = date;
+    }
+    public void setLocation(String location) {
+        this.location = location;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
